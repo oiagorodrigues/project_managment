@@ -1,18 +1,16 @@
 {
-  "name": "understanding-typescript",
+  "name": "project_manager",
   "version": "1.0.0",
-  "description": "Understanding TypeScript Course Setup",
-  "main": "app.js",
+  "description": "Project management web app",
+  "main": "dist/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server"
   },
   "keywords": [
-    "typescript",
-    "course"
+    "typescript"
   ],
-  "author": "Maximilian Schwarzmüller",
-  "license": "ISC",
+  "author": "Iago Rodrigues",
+  "license": "MIT",
   "devDependencies": {
     "lite-server": "^2.5.4"
   }
