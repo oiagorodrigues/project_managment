@@ -2,14 +2,14 @@
   "name": "project_manager",
   "version": "1.0.0",
   "description": "Project management web app",
-  "main": "dist/app.js",
+  "main": "app.js",
   "scripts": {
     "start": "lite-server"
   },
   "keywords": [
     "typescript"
   ],
-  "author": "Iago Rodrigues",
+  "author": "Iago Rodrigues <yagomello16@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "lite-server": "^2.5.4"
