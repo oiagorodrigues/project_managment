@@ -4,7 +4,8 @@
   "description": "Project management web app",
   "main": "app.js",
   "scripts": {
-    "start": "lite-server"
+    "start": "lite-server",
+    "build": "webpack"
   },
   "keywords": [
     "typescript"
