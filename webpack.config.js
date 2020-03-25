@@ -4,10 +4,12 @@ function resolve(_path) {
 }
 
 module.exports = {
+  mode: 'development',
   entry: './src/app.ts',
   output: {
     filename: 'bundle.js',
     path: resolve('dist'),
+    publicPath: 'dist'
   },
   devtool: 'inline-source-map',
   module: {
